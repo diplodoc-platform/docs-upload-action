@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Upload
-        uses: diplodoc-platform/docs-upload-action@v3
+        uses: diplodoc-platform/docs-upload-action@v1
         if: github.event.workflow_run.conclusion == 'success'
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -46,7 +46,7 @@ jobs:
           storage-secret-access-key: ${{ secrets.DIPLODOC_SECRET_ACCESS_KEY }}
 
       - name: Comment message
-        uses: diplodoc-platform/docs-message-action@v3
+        uses: diplodoc-platform/docs-message-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           project-link: ${{ vars.DIPLODOC_PROJECT_LINK }}
