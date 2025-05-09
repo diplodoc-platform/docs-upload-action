@@ -16,6 +16,9 @@ inputs:
     required: true
   stage:
     default: "stable"
+  docs-path:
+    description: 'Path to docs directory inside build-output-md'
+    default: ''
 
 runs:
   using: composite
@@ -68,11 +71,18 @@ runs:
           echo "BUCKET=${{ inputs.storage-bucket }}-${{ inputs.stage }}" >> $GITHUB_ENV
           echo "PREFIX=rev/${{ steps.get-revision.outputs.revision }}" >> $GITHUB_ENV
         fi
+        
+        if [[ -n "${{ inputs.docs-path }}" ]]; then
+          echo "INPUT_PATH=./build-output-md/${{ inputs.docs-path }}" >> $GITHUB_ENV
+        else
+          echo "INPUT_PATH=./build-output-md" >> $GITHUB_ENV
+        fi
+        
     - name: Upload S3
       shell: bash
       run: |
         yfm publish \
-          -i ./build-output-md \
+          -i "${{ env.INPUT_PATH }}" \
           --endpoint "${{ inputs.storage-endpoint }}" \
           --region "${{ inputs.storage-region }}" \
           --bucket "${{ env.BUCKET }}" \
