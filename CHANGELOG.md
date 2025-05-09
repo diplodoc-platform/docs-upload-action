@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.0.3...v1.1.0) (2025-05-09)
+
+
+### Features
+
+* allow set upload path ([#1](https://github.com/diplodoc-platform/docs-upload-action/issues/1)) ([dee0185](https://github.com/diplodoc-platform/docs-upload-action/commit/dee0185f34197b1360a66c9aa7c46063af408b99))
+
 ## [1.0.3](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.0.2...v1.0.3) (2025-01-29)
 
 
