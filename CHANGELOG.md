@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.2.0...v1.2.1) (2025-05-09)
+
+
+### Bug Fixes
+
+* link url ([6a3fd86](https://github.com/diplodoc-platform/docs-upload-action/commit/6a3fd86d06f73bcab51cb587fcfcf81771afa972))
+
 ## [1.2.0](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.1.0...v1.2.0) (2025-05-09)
 
 
