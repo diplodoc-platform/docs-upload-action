@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.1.0...v1.2.0) (2025-05-09)
+
+
+### Features
+
+* log link ([fb469e4](https://github.com/diplodoc-platform/docs-upload-action/commit/fb469e4fd54f95a9664d41159a5cc2cbf751f748))
+
 ## [1.1.0](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.0.3...v1.1.0) (2025-05-09)
 
 
