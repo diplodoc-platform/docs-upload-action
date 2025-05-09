@@ -19,9 +19,6 @@ inputs:
   docs-path:
     description: 'Path to docs directory inside build-output-md'
     default: ''
-  project-link:
-    description: 'URL to the documentation project'
-    required: false
 
 runs:
   using: composite
@@ -92,12 +89,3 @@ runs:
           --prefix "${{ env.PREFIX }}" \
           --access-key-id "${{ inputs.storage-access-key-id }}" \
           --secret-access-key "${{ inputs.storage-secret-access-key }}"
-    
-    - name: Generate documentation link
-      if: inputs.project-link != ''
-      shell: bash
-      run: |
-        DOC_LINK="${{ inputs.project-link }}"
-        echo "::notice title=Documentation Link::The production version of the documentation is available at: $DOC_LINK"
-        echo "### Documentation Link" >> $GITHUB_STEP_SUMMARY
-        echo "The production version of the documentation is available at: $DOC_LINK" >> $GITHUB_STEP_SUMMARY
