@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.2.1...v1.3.0) (2025-05-09)
+
+
+### Features
+
+* move project-link into docs-release-action ([#2](https://github.com/diplodoc-platform/docs-upload-action/issues/2)) ([568b5f0](https://github.com/diplodoc-platform/docs-upload-action/commit/568b5f03595ecb16df676ee851473937f74cfee7))
+
 ## [1.2.1](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.2.0...v1.2.1) (2025-05-09)
 
 
