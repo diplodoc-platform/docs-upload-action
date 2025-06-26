@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.3.0...v1.4.0) (2025-06-26)
+
+
+### Features
+
+* support cli-version on cli install ([#3](https://github.com/diplodoc-platform/docs-upload-action/issues/3)) ([53c884a](https://github.com/diplodoc-platform/docs-upload-action/commit/53c884a2006aaa1e5efa4a4618f965542b14d069))
+
 ## [1.3.0](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.2.1...v1.3.0) (2025-05-09)
 
 
