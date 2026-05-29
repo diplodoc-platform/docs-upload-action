@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.4.2...v1.4.3) (2026-05-29)
+
+
+### Bug Fixes
+
+* fixed node ([beb69ca](https://github.com/diplodoc-platform/docs-upload-action/commit/beb69ca1185ee31d6e8f9d5c6cd81de7fa921fb7))
+
 ## [1.4.2](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.4.1...v1.4.2) (2026-05-28)
 
 
