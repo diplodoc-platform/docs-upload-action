@@ -52,7 +52,7 @@ runs:
         echo "revision=$(cat ./inputs/revision)" >> $GITHUB_OUTPUT
       shell: bash
 
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@v5
       with:
         node-version: 24
     - run: npm i @diplodoc/cli@${{ inputs.cli-version }} -g
