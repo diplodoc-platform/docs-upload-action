@@ -44,7 +44,7 @@ runs:
 
     - name: 'Download all artifacts from current workflow'
       if: github.event.workflow_run.id == null
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v7
 
     - name: Get revision
       id: get-revision
