@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.4.4...v1.4.5) (2026-06-26)
+
+
+### Bug Fixes
+
+* **ci:** update actions versions ([a5fd0c9](https://github.com/diplodoc-platform/docs-upload-action/commit/a5fd0c9b07c0853d4e51a156510cae374f724f39))
+
 ## [1.4.4](https://github.com/diplodoc-platform/docs-upload-action/compare/v1.4.3...v1.4.4) (2026-06-25)
 
 
